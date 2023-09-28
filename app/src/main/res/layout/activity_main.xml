@@ -22,27 +22,27 @@
         android:layout_marginBottom="40dp"/>
 
     <Button
-        android:id="@+id/startBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="START"
         android:textSize="32dp"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:onClick="startTimer"/>
 
     <Button
-        android:id="@+id/stopBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="STOP"
         android:textSize="32dp"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:onClick="stopTimer"/>
 
     <Button
-        android:id="@+id/resetBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="RESET"
         android:textSize="32dp"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:onClick="resetTimer"/>
 
 </LinearLayout>
