@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     private int seconds;
 
-    private Timer timer = new Timer();
+    private Timer timer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         timerTxt = findViewById(R.id.timerTxt);
         timerTxt.setText("00:00:00");
         isGoing = false;
+        seconds = 0;
+        timer = new Timer();
     }
 
     public void startTimer(View v){
